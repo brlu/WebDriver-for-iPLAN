@@ -9,7 +9,7 @@ public class SetupStandardForecast extends StandardForecastNavigate{
 	WebDriver driver;
 	String target;
 	String hist_period = "26";
-	String fcst_period = "26";
+	String fcst_period = "13";
 	
 	public SetupStandardForecast(){
 		driver = Login.driver;
